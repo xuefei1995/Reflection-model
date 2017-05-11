@@ -1,0 +1,14 @@
+<c3p0-config>
+  <default-config>
+
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/xuefei</property>
+    <property name="user">root</property>
+    <property name="password">1234</property>
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+
+    <property name="initialPoolSize">5</property>
+    <property name="maxPoolSize">10</property>
+    <property name="checkoutTimeout">3000</property>
+    <property name="minPoolSize">3</property>
+  </default-config>
+</c3p0-config>
