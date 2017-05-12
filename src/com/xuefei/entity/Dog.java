@@ -1,8 +1,15 @@
 package com.xuefei.entity;
 
+import com.xuefei.annotation.column;
+import com.xuefei.annotation.table;
+
+@table(name = "dog_list")
 public class Dog {
+	@column(name = "id_list")
 	private int id;
+	@column(name = "name_list")
 	private String name;
+	@column(name = "age_list")
 	private int age;
 	public int getId() {
 		return id;
